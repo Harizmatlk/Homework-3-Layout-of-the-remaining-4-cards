@@ -1,68 +1,65 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Arial', sans-serif;
 }
 
 .product-card{
-   width: 340px;
-   height: 573px;
-   padding: 25px;
-   margin: 22.5px auto;
-   background-color: #F7F7FA;
-   color:#515076;
-} 
-
-.product-header{
-   margin-top: 30px;
-   argin-bottom: 15px;
-   gap: 5px;
+  width: 340px;
+  height: 573px;
+  padding: 25px;
+  margin: 22.5px auto;
+  background-color: #F7F7FA;
+  color:#515076;
 }
 
-.product-compound{
-   margin-left: 0px;
-   padding-left: 0px;
-   list-style-position: inside;
-   margin-bottom: 25px;
+.product-header{
+  margin-top: 30px;
+  margin-bottom: 15px;
+  gap: 5px;
 }
 
 .product-price{
-   font-size: Montserrat;
-   font-weight: 700;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 45px;
 }
 
 .title{
-   font-size: 70px; ;
-   line-height: 78px;
-   margin-top: 220px;
-   margin-bottom: 110px;
-   text-align: center;
-   color: #515076;
+  font-size: 70px;
+  line-height: 78px;
+  margin-top: 220px;
+  margin-bottom: 110px;
+  text-align: center;
+  color: #515076;
 }
 
 .label-text{
-   width: 171px;
-   height: 24px;
-   font-size: 12px;
-   line-height: 24px;
-   color: #A5A3B9;
-   text-transform: uppercase;
+  width: 171px;
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+  color:#A5A3B9;
+  text-transform: uppercase;
 }
 
 .product-name{
-   width: 220px;
-   height: 27px;
-   font-size: 20px;
-   line-height: 27px;
-   font-weight: 700;
+  font-size: 20px;
+  width: auto;
+  height: 27px;
+  line-height: 27px;
+  font-weight: 700px;
 }
 
 .product-description{
-   font-size: 13px;
-   line-height: 36px;
-   width: 291px;
-   height: 36px;
-   font-weight: 400;
-   font-style: Regular;
+  font-size: 13px;
+  line-height: 18px;
+  width: 291px;
+  height: 36px;
+  font-weight: 400px;
+  font-style: normal;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
+
