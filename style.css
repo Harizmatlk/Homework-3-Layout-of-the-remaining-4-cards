@@ -23,6 +23,9 @@
 .product-price {
   font-size: 24px;
   font-weight: bold;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -41,6 +44,8 @@
   line-height: 24px;
   color: #A5A3B9;
   text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
 
 .product-name {
@@ -48,7 +53,7 @@
   width: auto;
   height: 27px;
   line-height: 27px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .product-description {
@@ -56,8 +61,13 @@
   line-height: 18px;
   width: 291px;
   height: 36px;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+
+compound-title{
+margin-top: 15px;
+margin-bottom: 5px;
 }
